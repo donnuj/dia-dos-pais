@@ -1,99 +1,85 @@
-
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8f8;
   color: #222;
 }
 
 .hero {
-  background-color: #000;
-  color: white;
   text-align: center;
-  padding: 2rem 1rem;
+  background-color: #002244;
+  color: white;
+  padding: 0;
+  position: relative;
 }
 
 .logo {
-  max-width: 200px;
-  margin-bottom: 1rem;
+  max-width: 150px;
+  margin: 1rem auto;
+  display: block;
 }
 
-.hero h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 2.5rem;
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  opacity: 0.85;
 }
 
-.hero p {
-  font-size: 1.1rem;
-  max-width: 600px;
-  margin: 0 auto;
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
 }
 
-.packages {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.pacotes {
   padding: 2rem 1rem;
-  gap: 2rem;
-}
-
-.package {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  padding: 1.5rem;
-  max-width: 320px;
-}
-
-.package h2 {
-  color: #000;
-  font-size: 1.4rem;
-}
-
-.package ul {
-  padding: 0;
-  list-style: none;
-}
-
-.package li {
-  margin: 0.5rem 0;
-}
-
-.package p {
-  margin-top: 1rem;
-  font-weight: bold;
-  color: #555;
-}
-
-.cta {
   text-align: center;
-  padding: 2rem 1rem;
-  background-color: #ffe0b2;
 }
 
-.cta h2 {
+.pacotes h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pacote {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pacote img {
+  width: 100%;
+  border-radius: 6px;
   margin-bottom: 1rem;
 }
 
-.whatsapp-button {
-  background-color: #25D366;
-  color: white;
-  text-decoration: none;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  font-weight: bold;
-  display: inline-block;
-  transition: 0.3s;
-}
-
-.whatsapp-button:hover {
-  background-color: #1ebc59;
+.pacote strong {
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 1rem;
+  color: #0077cc;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #000;
+  padding: 2rem;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
   color: white;
-  font-size: 0.9rem;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
