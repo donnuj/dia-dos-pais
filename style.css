@@ -1,0 +1,99 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.hero {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.package {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  max-width: 320px;
+}
+
+.package h2 {
+  color: #000;
+  font-size: 1.4rem;
+}
+
+.package ul {
+  padding: 0;
+  list-style: none;
+}
+
+.package li {
+  margin: 0.5rem 0;
+}
+
+.package p {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.cta {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #ffe0b2;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: white;
+  font-size: 0.9rem;
+}
