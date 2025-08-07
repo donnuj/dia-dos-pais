@@ -1,54 +1,85 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dia dos Pais - Alessandra Cirqueira</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="hero">
-    <img src="assets/logo-alessandra-cirqueira.jpg" alt="Logo Alessandra Cirqueira" class="logo" />
-    <h1>Presenteie com Memórias</h1>
-    <p>No Dia dos Pais, transforme amor em eternidade com um ensaio especial.</p>
-  </header>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
+}
 
-  <section class="packages">
-    <div class="package">
-      <h2>Pacote 01: Presente de Pai</h2>
-      <ul>
-        <li>Cenário incluso</li>
-        <li>5 fotos digitais editadas</li>
-        <li>1 foto impressa 15x21</li>
-        <li>1 cartão personalizado (digital + impresso 10x15 com imã)</li>
-        <li><strong>R$ 157,00</strong></li>
-      </ul>
-      <p>Um presente simples, emocionante e com valor afetivo imenso.</p>
-    </div>
+.hero {
+  text-align: center;
+  background-color: #002244;
+  color: white;
+  padding: 0;
+  position: relative;
+}
 
-    <div class="package">
-      <h2>Pacote 02: Herói do Meu Mundo</h2>
-      <ul>
-        <li>Cenário incluso</li>
-        <li>15 fotos digitais editadas</li>
-        <li>2 fotos impressas 15x21</li>
-        <li>1 cartão personalizado (digital + impresso 10x15 com imã)</li>
-        <li><strong>R$ 397,00</strong></li>
-      </ul>
-      <p>Porque ele é o herói de todos os dias... surpreenda com um presente que guarda o tempo e eterniza o afeto.</p>
-    </div>
-  </section>
+.logo {
+  max-width: 150px;
+  margin: 1rem auto;
+  display: block;
+}
 
-  <section class="cta">
-    <h2>Agende agora seu ensaio!</h2>
-    <a href="https://wa.me/5561999999999" target="_blank" class="whatsapp-button">Falar pelo WhatsApp</a>
-    <!-- substitua o número acima pelo número real do estúdio -->
-  </section>
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  opacity: 0.85;
+}
 
-  <footer>
-    <p>&copy; 2025 Alessandra Cirqueira Estúdio Fotográfico</p>
-  </footer>
-</body>
-</html>
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+}
+
+.pacotes {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.pacotes h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pacote {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.pacote img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.pacote strong {
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 1rem;
+  color: #0077cc;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
